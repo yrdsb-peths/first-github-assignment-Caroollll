@@ -1,0 +1,17 @@
+public class Cat {
+	private String breed;
+	Private int age; 
+
+	public Cat(String whatBreed, int whatAge) {
+		breed = whatBreed;
+		age = whatAge;
+	}
+
+	public String getBreed() {
+		return breed;
+	} 
+
+	public int getAge(){ 
+		return age;
+	}
+}
