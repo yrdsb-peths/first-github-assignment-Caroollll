@@ -6,4 +6,12 @@ public class Dog {
 		breed = theBreed;
 		age = theAge;
 	}
+	
+	public String getBreed(){
+		return breed;
+	}
+	
+	public String getAge(){
+		return age;
+	}
 }
